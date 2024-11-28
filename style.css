@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+ 
+  
+  header {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;            
+    padding: 10px 20px;              
+  }
+  
+  .logo img {
+    width: 4rem;  
+    margin: 30px 5px 0 20px;
+  }
+  
+  .sandwich img {
+    width: 2.5rem;  
+  }
+  .logo img {
+   fill: #68E1FD;
+  }
+  h1 {
+    display: inline;
+    font-size: 4rem;
+    color: #68E1FD;
+  }
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+  .hero {
+    width: 50rem;
+  }
+
+  .learn-more {
+    max-width: 50%; 
+    text-align: left;
+  }
+  
+  .hero img {
+    width: 100%; 
+    max-width: 40rem; 
+  }
+.first-container{
+    padding: 5rem;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+h2 {
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+p {
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: #848484;
+}
+
+.first-container button {
+    margin: 2rem;
+    width: 180px;
+    height: 50px;
+    background-color: #68E1FD;
+    font-size: 1.7rem;
+    border: #68E1FD;
+}
+
+.second-container {
+    background-color: #68E1FD;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 150px;
+    display: flex;
+
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.second-container p {
+    margin: 20px 250px;
+  
+
+  
+}
+
+ul {
+    list-style: none;
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    padding: 50px;
+  }
+
+  ul li {
+    padding: 30px;
+  }
+
+  ul li img {
+    width: 1.3rem;
+    margin-right: 8px;
+  }
+
+  .unordered-list {
+    display: flex;
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: left;
+    font-weight: bold;
+   
+  }
+
+  .second-image > img {
+   margin: auto;
+ 
+   width: 450px;
+ 
+   align-items: center;
+  }
+  .second-image {
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin: auto;
+    padding: 100px;
+  }
+  
+  
+footer {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    height: 80px;
+}
+
+.socials {
+    display: flex;         
+    gap: 3rem;              
+    justify-content: flex-end; 
+}
+
+.fa-brands {
+    font-size: 2rem;
+    margin-right: 50px;
+}
+
+footer span {
+    margin-left: 50px;
+}
+
+.fa-brands:hover {
+  color: green;
+  font-size: 2.3rem;
+}
